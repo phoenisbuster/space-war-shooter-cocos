@@ -1,0 +1,172 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "GameManager",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 4
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "84954tTlu9KqKLu1Ead0PNz",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "Player": null,
+    "BG_Image": null,
+    "BackGroundObj": null,
+    "GroupEnemies": null,
+    "EnemyWaveRate": 0,
+    "enemyShapes": [],
+    "randomShape": true,
+    "fixShapeIndex": 0,
+    "enemyPaths": [],
+    "randomPath": true,
+    "fixPathIndex": 0,
+    "Obstacles": null,
+    "MeteoritePrefab": {
+      "__uuid__": "012050c1-013f-4548-893a-6416e5370f86"
+    },
+    "MeteoriteGenSpeed": 0.25,
+    "maxInterval": 20,
+    "minInterval": 10,
+    "maxSize": 1,
+    "minSize": 0.25,
+    "CurMeteo": 0,
+    "Bosses": [
+      {
+        "__uuid__": "d7758140-a7f2-40d2-b931-bc599fe1b1e5"
+      }
+    ],
+    "BossHealthBar": null,
+    "isBossExist": false,
+    "isBossDead": false,
+    "PowerUpRate": 15,
+    "ChangeSpaceShipRate": 15,
+    "HealthRate": 10,
+    "MoneyRate": 50,
+    "ItemsPickUp": [],
+    "SpaceShipList": [],
+    "GameMusic": null,
+    "UI_Canvas": null,
+    "UI_Panel": null,
+    "FPSDisplay": null,
+    "WaveDisplay": null,
+    "Boudaries": null,
+    "usingCustomLevel": false,
+    "Level": {
+      "__uuid__": "e532b14e-547f-42db-a9aa-f27ab2bf4b5d"
+    },
+    "waveNumber": 0,
+    "isSurvivalMode": true,
+    "MaxwaveNumber": 10,
+    "BossEveryWave": 5,
+    "startNewWave": false,
+    "statMultipler": 1.03,
+    "isStrongerEachWave": true,
+    "targetFramRate": 60,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_clip": {
+      "__uuid__": "fde0a04f-acba-4b58-859a-1ce3551cc7bf"
+    },
+    "_volume": 1,
+    "_mute": false,
+    "_loop": false,
+    "_firstlyEnabled": true,
+    "playOnLoad": false,
+    "preload": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "",
+    "sync": false
+  }
+]

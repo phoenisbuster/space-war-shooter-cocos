@@ -1,0 +1,4 @@
+include ':libcocos2dx'
+project(':libcocos2dx').projectDir = new File('/Applications/CocosCreator/Creator/2.4.4/CocosCreator.app/Contents/Resources/cocos2d-x/cocos/platform/android/libcocos2dx')
+include ':SpaceDestroyer'
+project(':SpaceDestroyer').projectDir = new File(settingsDir, 'app')

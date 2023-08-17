@@ -1,0 +1,995 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Player",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 22
+      },
+      {
+        "__id__": 23
+      },
+      {
+        "__id__": 24
+      },
+      {
+        "__id__": 25
+      },
+      {
+        "__id__": 26
+      },
+      {
+        "__id__": 27
+      },
+      {
+        "__id__": 28
+      }
+    ],
+    "_prefab": {
+      "__id__": 29
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 30,
+      "height": 30
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        84.5,
+        618,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "SpaceShip1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 15
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 19
+      },
+      {
+        "__id__": 20
+      }
+    ],
+    "_prefab": {
+      "__id__": 21
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 40,
+      "height": 40
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Gun1",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 4
+      }
+    ],
+    "_prefab": {
+      "__id__": 5
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        18.704,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "58160/KkzROhZN0nhSeFszx",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 3
+    },
+    "_enabled": true,
+    "ShootingScript": null,
+    "playerBullet": null,
+    "numOfShot": 1,
+    "TimeBetShot": 0.25,
+    "UpgradeLv": 1,
+    "FireRate": 0.4,
+    "BulletSpeed": 400,
+    "BulletDist": 600,
+    "MaxAttributeUpgrade": 1,
+    "AttackSpeed": 1,
+    "AtkSpeedPerLv": 0.05,
+    "canShoot": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 2
+    },
+    "asset": {
+      "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+    },
+    "fileId": "db5TqaR2ZNUIiv3GeKXen5",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Gun2",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 7
+      }
+    ],
+    "_prefab": {
+      "__id__": 8
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -7.482,
+        8.016,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "58160/KkzROhZN0nhSeFszx",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 6
+    },
+    "_enabled": true,
+    "ShootingScript": null,
+    "playerBullet": null,
+    "numOfShot": 1,
+    "TimeBetShot": 0.25,
+    "UpgradeLv": 1,
+    "FireRate": 0.4,
+    "BulletSpeed": 400,
+    "BulletDist": 600,
+    "MaxAttributeUpgrade": 1,
+    "AttackSpeed": 1,
+    "AtkSpeedPerLv": 0.05,
+    "canShoot": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 2
+    },
+    "asset": {
+      "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+    },
+    "fileId": "04Q0CvBrxFM6EwrsbhWMQL",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Gun3",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 10
+      }
+    ],
+    "_prefab": {
+      "__id__": 11
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        7.482,
+        7.482,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "58160/KkzROhZN0nhSeFszx",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 9
+    },
+    "_enabled": true,
+    "ShootingScript": null,
+    "playerBullet": null,
+    "numOfShot": 1,
+    "TimeBetShot": 0.25,
+    "UpgradeLv": 1,
+    "FireRate": 0.4,
+    "BulletSpeed": 400,
+    "BulletDist": 600,
+    "MaxAttributeUpgrade": 1,
+    "AttackSpeed": 1,
+    "AtkSpeedPerLv": 0.05,
+    "canShoot": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 2
+    },
+    "asset": {
+      "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+    },
+    "fileId": "04TnmwXeRDqqklqiIZ290l",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Gun4",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 13
+      }
+    ],
+    "_prefab": {
+      "__id__": 14
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        -15.498,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "58160/KkzROhZN0nhSeFszx",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 12
+    },
+    "_enabled": true,
+    "ShootingScript": null,
+    "playerBullet": null,
+    "numOfShot": 1,
+    "TimeBetShot": 0.25,
+    "UpgradeLv": 1,
+    "FireRate": 0.4,
+    "BulletSpeed": 400,
+    "BulletDist": 600,
+    "MaxAttributeUpgrade": 1,
+    "AttackSpeed": 1,
+    "AtkSpeedPerLv": 0.05,
+    "canShoot": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 2
+    },
+    "asset": {
+      "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+    },
+    "fileId": "0bO653Hb5G1putig+T7kGF",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Gun5",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 16
+      }
+    ],
+    "_prefab": {
+      "__id__": 17
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        15.498,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "58160/KkzROhZN0nhSeFszx",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 15
+    },
+    "_enabled": true,
+    "ShootingScript": null,
+    "playerBullet": null,
+    "numOfShot": 1,
+    "TimeBetShot": 0.25,
+    "UpgradeLv": 1,
+    "FireRate": 0.4,
+    "BulletSpeed": 400,
+    "BulletDist": 600,
+    "MaxAttributeUpgrade": 1,
+    "AttackSpeed": 1,
+    "AtkSpeedPerLv": 0.05,
+    "canShoot": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 2
+    },
+    "asset": {
+      "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+    },
+    "fileId": "66BuG4uD5Bd4dWpuWs2QhO",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "e0c4ef25-0918-4b67-bb9e-9478e773554d"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "85a96lzCuRLHKgt71WmE1Jb",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "BulletData": {
+      "__uuid__": "b4af7139-3cec-44e6-a78c-5db63d5474b3"
+    },
+    "BulletPrefabList": [],
+    "GunList": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 6
+      },
+      {
+        "__id__": 9
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 15
+      }
+    ],
+    "UpgradeLv": 0,
+    "lv2": "This is setting for level 2",
+    "isIncreaseNoBullet_2": true,
+    "isIncreaseAttrBullet_2": false,
+    "isIncreaseAtkSpeed_2": true,
+    "GunID_2": [
+      1,
+      2
+    ],
+    "lv3": "This is setting for level 3",
+    "isIncreaseNoBullet_3": false,
+    "isIncreaseAttrBullet_3": true,
+    "isIncreaseAtkSpeed_3": true,
+    "GunID_3": [],
+    "lv4": "This is setting for level 4",
+    "isIncreaseNoBullet_4": true,
+    "isIncreaseAttrBullet_4": false,
+    "isIncreaseAtkSpeed_4": true,
+    "GunID_4": [
+      0,
+      1,
+      2
+    ],
+    "lv5": "This is setting for level 5",
+    "isIncreaseNoBullet_5": false,
+    "isIncreaseAttrBullet_5": true,
+    "isIncreaseAtkSpeed_5": true,
+    "GunID_5": [],
+    "lv6": "This is setting for level 6",
+    "isIncreaseNoBullet_6": true,
+    "isIncreaseAttrBullet_6": false,
+    "isIncreaseAtkSpeed_6": true,
+    "GunID_6": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "lv7": "This is setting for level 7",
+    "isIncreaseNoBullet_7": false,
+    "isIncreaseAttrBullet_7": true,
+    "isIncreaseAtkSpeed_7": true,
+    "GunID_7": [],
+    "lv8": "This is setting for level 8",
+    "isIncreaseNoBullet_8": true,
+    "isIncreaseAttrBullet_8": false,
+    "isIncreaseAtkSpeed_8": true,
+    "GunID_8": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "lv9": "This is setting for level 9",
+    "isIncreaseNoBullet_9": false,
+    "isIncreaseAttrBullet_9": true,
+    "isIncreaseAtkSpeed_9": true,
+    "GunID_9": [],
+    "lv10": "This is setting for level 10",
+    "isIncreaseNoBullet_10": false,
+    "isIncreaseAttrBullet_10": false,
+    "isIncreaseAtkSpeed_10": true,
+    "GunID_10": [],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "_clip": null,
+    "_volume": 1,
+    "_mute": false,
+    "_loop": false,
+    "_firstlyEnabled": true,
+    "playOnLoad": false,
+    "preload": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 2
+    },
+    "asset": {
+      "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+    },
+    "fileId": "45SQ4z/2VON7yeG3eyKCqy",
+    "sync": false
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": false,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "8cdb44ac-a3f6-449f-b354-7cd48cf84061"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.RigidBody",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_type": 2,
+    "_allowSleep": true,
+    "_gravityScale": 0,
+    "_linearDamping": 0,
+    "_angularDamping": 0,
+    "_linearVelocity": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_angularVelocity": 0,
+    "_fixedRotation": false,
+    "enabledContactListener": true,
+    "bullet": false,
+    "awakeOnLoad": true,
+    "_id": ""
+  },
+  {
+    "__type__": "8b80d84ZltFW7wyQiy+vXOh",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "TouchInput": null,
+    "Canvas": null,
+    "SetTouch": true,
+    "speed": 50,
+    "leftBound": 0,
+    "rightBound": 0,
+    "lowBound": 0,
+    "upBound": 0,
+    "ScreenWidth": 0,
+    "ScreenHeight": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "86aa80I5xJGtY50+fZXwiUP",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "MaxHealth": 50,
+    "CurHealth": 0,
+    "Def": 20,
+    "Armor": 0,
+    "MagicResist": 20,
+    "isInvincible": true,
+    "isDead": false,
+    "HealthBar": null,
+    "collider": null,
+    "PlayerBulletPrefab": {
+      "__uuid__": "573d9db1-99f6-43a6-beb7-78941b4da4c9"
+    },
+    "canShoot": true,
+    "AtkSpeed": 0.25,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CircleCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_radius": 10,
+    "_id": ""
+  },
+  {
+    "__type__": "adbfbs6tf5AlYFxuq/Zvheh",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "CurLevel": 1,
+    "OldLevel": 1,
+    "Lv10Time": 5,
+    "isLv10": false,
+    "Lv_Text": null,
+    "Lv10_UI": null,
+    "_id": ""
+  },
+  {
+    "__type__": "238a8hnUt9OUImhWe/SqmEM",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "SpaceShipType": [
+      {
+        "__uuid__": "19fc87ec-9126-494b-99bc-c59864c1da15"
+      },
+      {
+        "__uuid__": "f09e11ee-b429-4d03-a1ff-07852b6cd2fc"
+      },
+      {
+        "__uuid__": "f427b8e6-6dea-4625-b4ab-b7b3c7eadc16"
+      },
+      {
+        "__uuid__": "9ed7e912-fc17-4362-b679-188c55e9fb7e"
+      }
+    ],
+    "CurSpaceShipType": null,
+    "index": -1,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "",
+    "sync": false
+  }
+]
