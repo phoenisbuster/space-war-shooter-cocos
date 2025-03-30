@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "5e6cb15b-ca87-432c-8f6b-795bd617323f",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 646,
+  "height": 600,
+  "platformSettings": {},
+  "subMetas": {
+    "FF7 Stats sumary": {
+      "ver": "1.0.6",
+      "uuid": "95fa08de-a834-41ee-81e3-9d27f72f0ed2",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "5e6cb15b-ca87-432c-8f6b-795bd617323f",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 646,
+      "height": 600,
+      "rawWidth": 646,
+      "rawHeight": 600,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

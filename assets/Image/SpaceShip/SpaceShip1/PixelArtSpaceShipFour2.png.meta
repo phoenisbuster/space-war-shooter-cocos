@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "376f52ad-d30b-4858-a542-e3e10b656356",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 500,
+  "height": 500,
+  "platformSettings": {},
+  "subMetas": {
+    "PixelArtSpaceShipFour2": {
+      "ver": "1.0.6",
+      "uuid": "26d4ff5b-8de0-4f9f-b07e-3d1c8205e67b",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "376f52ad-d30b-4858-a542-e3e10b656356",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2,
+      "offsetY": 29,
+      "trimX": 136,
+      "trimY": 117,
+      "width": 224,
+      "height": 208,
+      "rawWidth": 500,
+      "rawHeight": 500,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

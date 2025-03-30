@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "12835ec2-fb79-408a-90eb-40c45d06399e",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 820,
+  "height": 749,
+  "platformSettings": {},
+  "subMetas": {
+    "5-52163_open-red-triangle-upside-down.png": {
+      "ver": "1.0.6",
+      "uuid": "9bbf8321-cdef-4f59-aeb1-a303e1154d4d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "12835ec2-fb79-408a-90eb-40c45d06399e",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 820,
+      "height": 749,
+      "rawWidth": 820,
+      "rawHeight": 749,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
